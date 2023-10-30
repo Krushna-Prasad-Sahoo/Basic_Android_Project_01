@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/cream"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Delhi">
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:paddingTop="10dp"
+        android:text="Welcome to Bangalore"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#c32148"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Bangalore ki sadakon par chalein toh mehfil ho, Yahan ke rang birange rang, yahan ki hasin boli. IT hub ke roop mein hai yeh shahar mashhoor, Yahan ki zindagi, har kadam ek kahani, ek safar."
+        android:textAllCaps="false"
+        android:textColor="#4169e1"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        />
+    <ImageView
+        android:id="@+id/del1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ban2" />
+
+
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_gravity="center"
+        android:layout_height="115dp" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Bangalore, known as the Silicon Valley of India, is a thriving metropolis celebrated for its tech innovation and pleasant climate. This garden city offers lush parks, including Cubbon Park, Lalbagh Botanical Garden, and a lively nightlife. It's a hub for startups, IT companies, and educational institutions. The city's blend of modernity and tradition is reflected in its historic temples, bustling markets, and diverse culinary scene. Bangalore's cosmopolitan culture, music, and arts festivals add vibrancy to the city. Nestled in the hills of Karnataka, it's a city where technology and nature coexist, making it a unique and dynamic destination."
+            />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/del2"
+        android:layout_width="400dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ban1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK TO HOME"
+        android:layout_gravity="center"
+        android:id="@+id/home" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cream"
+    tools:context=".Delhi">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:paddingTop="15dp"
+        android:text="Welcome to Delhi"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#c32148"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Delhi ki galiyon mein chhupi hain kahaniyan, Yahan ki tehzeeb, yahan ki jawani. Sheher hai yeh purani, lekin hamesha jawan, Dilli ki adaaon pe fida hain saari jaan."
+        android:textAllCaps="false"
+        android:textColor="#4169e1"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        />
+    <ImageView
+        android:id="@+id/del1"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="10dp"
+        android:src="@drawable/del1" />
+
+
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_gravity="center"
+        android:layout_height="115dp" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Delhi, the capital of India, is a vibrant city that seamlessly blends the historical and the contemporary. It boasts iconic landmarks like the Red Fort, Qutub Minar, and India Gate that narrate its rich history. The city's bustling markets, from Chandni Chowk to Connaught Place, offer a diverse culinary experience and shopping adventure. Delhi's thriving arts and culture scene is celebrated through museums and galleries. It's a city where traditions meet technology, and where the old and new coexist harmoniously. Delhi's charm lies in its diverse neighborhoods, people, and its role as the nation's political and cultural heart." />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/del2"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="10dp"
+        android:src="@drawable/del2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK TO HOME"
+        android:layout_gravity="center"
+        android:id="@+id/home" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/cream"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Delhi">
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:paddingTop="10dp"
+        android:text="Welcome to Kolkata"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#c32148"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Kolkata ki galiyan, history ki kahaniyan, Yeh sheher hai adabi aur sanskriti ki jawani. Howrah Bridge se Victoria Memorial tak, Yeh sheher hai premlata, yeh hai Kavi Nazrul ka dhak."
+        android:textAllCaps="false"
+        android:textColor="#4169e1"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        />
+    <ImageView
+        android:id="@+id/del1"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="220dp"
+        android:src="@drawable/kol1" />
+
+
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_gravity="center"
+        android:layout_height="115dp" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Kolkata, often referred to as the Cultural Capital of India, is a city steeped in history and artistic expression. It's renowned for its colonial architecture, including the iconic Victoria Memorial, Howrah Bridge, and the historic Indian Museum. The city's rich literary heritage gave birth to legendary poets and writers, such as Rabindranath Tagore. Kolkata's bustling markets, like College Street and Park Street, offer an array of street food and shopping experiences. It hosts grand Durga Puja festivals and an array of cultural events. Kolkata's charm lies in its art, literature, festivals, and its warm and welcoming people." />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/del2"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="5dp"
+        android:src="@drawable/kol2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK TO HOME"
+        android:layout_gravity="center"
+        android:id="@+id/home" />
+</androidx.appcompat.widget.LinearLayoutCompat>

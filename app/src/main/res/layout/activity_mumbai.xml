@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/cream"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Delhi">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:paddingTop="10dp"
+        android:text="Welcome to MUMBAI"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#c32148"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Mumbai ki raatien, sahir ki baatein, Yeh sheher hai, jahan sapnon ki baazi chal rahi. Dharavi ki basti se Marine Drive tak, Yeh sheher hai adbhut, har kona hai raaz."
+        android:textAllCaps="false"
+        android:textColor="#4169e1"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        />
+    <ImageView
+        android:id="@+id/del1"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="225dp"
+        android:src="@drawable/mum1" />
+
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_gravity="center"
+        android:layout_height="115dp" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Mumbai, the financial and entertainment hub of India, is a city of boundless energy and dreams. It's famous for its iconic Marine Drive, the Gateway of India, and vibrant street food culture. The city boasts Bollywood, the Indian film industry, and a bustling arts scene. It's a place where historical landmarks like the Chhatrapati Shivaji Terminus stand alongside modern skyscrapers. Mumbai's diverse neighborhoods, from South Mumbai to the suburbs, offer distinct experiences. The Arabian Sea's coastline adds a unique charm. Mumbai is a melting pot of cultures, and its fast-paced life is balanced by the city's resilient spirit and camaraderie." />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/del2"
+        android:layout_width="400dp"
+        android:layout_gravity="center"
+        android:layout_height="220dp"
+        android:padding="10dp"
+        android:src="@drawable/mum2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK TO HOME"
+        android:layout_gravity="center"
+        android:id="@+id/home" />
+</androidx.appcompat.widget.LinearLayoutCompat>

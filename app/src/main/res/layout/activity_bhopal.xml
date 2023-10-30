@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/cream"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Delhi">
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:text="Welcome to Bhopal"
+        android:paddingTop="10dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#c32148"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Bhopal ki raatien, mehfilon mein rang, Yeh sheher hai aman aur tehzeeb ka sang. Taj-ul-Masajid se Bhimbetka ki guphaon tak, Yeh sheher hai sanskriti ka ek anmol ang."
+        android:textAllCaps="false"
+        android:textColor="#4169e1"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        />
+    <ImageView
+        android:id="@+id/del1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        android:src="@drawable/bho2" />
+
+
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_gravity="center"
+        android:layout_height="115dp" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Bhopal, the capital of Madhya Pradesh, is a city rich in history and culture. It's known for its historic sites, including the Taj-ul-Masajid, and the serene Upper Lake. The city boasts a unique blend of Mughal and Hindu architectural influences. Bhopal is also famous for its thriving arts scene and educational institutions. Its natural beauty is complemented by picturesque lakes and lush greenery, making it a peaceful and charming place to explore. Bhopal's cultural heritage, culinary delights, and its welcoming atmosphere make it an intriguing destination where tradition meets modernity in the heart of India." />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/del2"
+        android:layout_width="400dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_height="220dp"
+        android:src="@drawable/bho1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK TO HOME"
+        android:layout_gravity="center"
+        android:id="@+id/home" />
+</androidx.appcompat.widget.LinearLayoutCompat>
