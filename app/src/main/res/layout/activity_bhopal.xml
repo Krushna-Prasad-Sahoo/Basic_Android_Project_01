@@ -32,7 +32,7 @@
         android:layout_gravity="center"
         />
     <ImageView
-        android:id="@+id/del1"
+        android:id="@+id/bho1"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:padding="10dp"
@@ -54,7 +54,7 @@
     </ScrollView>
 
     <ImageView
-        android:id="@+id/del2"
+        android:id="@+id/bho2"
         android:layout_width="400dp"
         android:layout_gravity="center"
         android:padding="10dp"
