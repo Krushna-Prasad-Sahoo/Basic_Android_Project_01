@@ -17,7 +17,7 @@ PlaceSage
 
 ### Tech and Concepts Used
 
-- **Programming Language:** Java/Kotlin
+- **Programming Language:** Kotlin
 - **Android SDK:** Android Software Development Kit
 - **User Interface:** Android's XML layout files and UI components
 - **Version Control:** GitHub for version control
