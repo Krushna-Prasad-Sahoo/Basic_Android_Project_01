@@ -9,8 +9,11 @@ PlaceSage
 ### What It Does
 
 - "PlaceSage" allows users to explore different places with captivating images.
-- Users can select specific destinations to access comprehensive information about them.
-- The app provides a streamlined and informative experience for anyone interested in expanding their knowledge about the world.
+- When users select a specific destination, the app seamlessly guides them to a dedicated page.
+- Here, they find comprehensive information about the chosen place, accompanied by striking images that offer a visual perspective.
+- Additionally, users are presented with a convenient button to return to the home page.
+
+
 
 ### Tech and Concepts Used
 
