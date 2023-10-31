@@ -19,5 +19,6 @@ PlaceSage
 
 - **Programming Language:** Kotlin
 - **Android SDK:** Android Software Development Kit
-- **User Interface:** Android's XML layout files and UI components
+- **User Interface:** Android's XML layout files and UI components, including linear layout.
+- **Intents:** Use of explicit intent for navigation between activities
 - **Version Control:** GitHub for version control
