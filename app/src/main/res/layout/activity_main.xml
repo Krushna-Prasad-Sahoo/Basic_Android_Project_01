@@ -53,50 +53,50 @@
 
     <Button
         android:id="@+id/del"
-        android:padding="20dp"
-        android:layout_height="70dp"
+        android:padding="5dp"
+        android:layout_height="50dp"
         android:layout_width="200dp"
         android:layout_gravity="center"
         android:text="DELHI" />
 
     <Button
         android:id="@+id/mum"
-        android:padding="20dp"
+        android:padding="5dp"
         android:layout_width="200dp"
         android:layout_gravity="center"
-        android:layout_height="70dp"
+        android:layout_height="50dp"
         android:text="MUMBAI" />
 
     <Button
         android:id="@+id/ban"
-        android:padding="20dp"
+        android:padding="5dp"
         android:layout_width="200dp"
         android:layout_gravity="center"
-        android:layout_height="70dp"
+        android:layout_height="50dp"
         android:text="BANGALORE" />
 
 
     <Button
         android:id="@+id/kol"
-        android:padding="20dp"
+        android:padding="5dp"
         android:layout_width="200dp"
         android:layout_gravity="center"
-        android:layout_height="70dp"
+        android:layout_height="50dp"
         android:text="KOLKATA" />
 
     <Button
         android:id="@+id/bho"
-        android:padding="20dp"
+        android:padding="5dp"
         android:layout_width="200dp"
         android:layout_gravity="center"
-        android:layout_height="70dp"
+        android:layout_height="50dp"
         android:text="BHOPAL" />
 
     <Button
         android:id="@+id/exit"
-        android:layout_gravity="center"
+        android:layout_gravity="center_horizontal"
         android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_height="55dp"
         android:text="Exit"
         android:background="@drawable/rounded_button" />
 
