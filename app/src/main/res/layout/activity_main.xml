@@ -99,6 +99,14 @@
         android:layout_height="55dp"
         android:text="Exit"
         android:background="@drawable/rounded_button" />
+    <Button
+        android:id="@+id/callUs"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:layout_width="95dp"
+        android:layout_height="55dp"
+        android:text="Call Us"
+        android:background="@drawable/rounded_button" />
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
