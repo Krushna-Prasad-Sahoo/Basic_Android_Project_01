@@ -1,6 +1,7 @@
 package com.example.placesage
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -18,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         val kolkata = findViewById<Button>(R.id.kol)
         val bhopal = findViewById<Button>(R.id.bho)
         val exit = findViewById<Button>(R.id.exit)
+        val call = findViewById<Button>(R.id.callUs)
 
         delhi.setOnClickListener {
             intent = Intent(applicationContext, Delhi::class.java)
@@ -42,7 +44,10 @@ class MainActivity : AppCompatActivity() {
         exit.setOnClickListener {
             ActivityCompat.finishAffinity(this)
         }
-
-
+        call.setOnClickListener {
+            val intent = Intent(Intent.ACTION_CALL)
+            intent.data = Uri.parse("tel:+919428266341")
+           startActivity(intent)
+        }
     }
 }
